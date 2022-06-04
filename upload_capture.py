@@ -1,5 +1,3 @@
-import requests
-import time
 import picamera
 from firebase_admin import credentials, initialize_app, storage
 
