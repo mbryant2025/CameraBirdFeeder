@@ -1,6 +1,6 @@
 from firebase_admin import credentials, initialize_app, storage
 # Init firebase with your credentials
-cred = credentials.Certificate('key.json')
+cred = credentials.Certificate('/home/pi/Desktop/key.json')
 initialize_app(cred, {'storageBucket': 'camera-bird-feeder-f06ef.appspot.com'})
 
 # Put your local file path 
